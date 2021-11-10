@@ -1,5 +1,44 @@
-nav ul{
+/*-----------------Nav Bar Css----------------------*/
+ul{
+    background-color: #07294D;
     list-style-type: none;
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    /*padding: 0 2rem;*/
+    top: 0;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
+li{
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+/*nav ul li a:active{
+    text-decoration: underline;
+    color: black;
+}*/
+ ul li a:hover{
+ color: #EDB09F;
+ text-decoration: underline;
+}
+li a {
+    color: #FFF0EB;
+    text-decoration: none;
+}
+
+/*----------------------------------------------------*/
+body{
+    color: #100A36;
+    background-color: #EEF8FF;
+    font-size: 1rem;
+    margin: 0;
+}
+main{
+    margin: 4rem 2rem 0;
+}
+
+
+
