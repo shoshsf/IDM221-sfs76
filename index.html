@@ -5,25 +5,25 @@
         <meta charset="utf-8">
         <title>Samiha'a Portfolio</title>
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="FontStyleSheet.css">
+        <link rel="stylesheet" href="ExtentionApplicator.css">
     </head>
     <body>
       <head>
-        <nav>
-          <ul>
-            <li id="homeButton">
-              <a href="index.html">Home</a>
-            </li>
-            <li id="aboutButton">
-              <a href="aboutMe.html">About</a>
-            </li>
-            <li id="workButton">
-              <a href="work.html">Work</a>
-            </li>
-            <li id="contactButton">
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </nav>
+        <ul>
+          <li class="navButton" id="currentPage"> <!---The currentPage Id will be applied to all the buttons depending on the page and then css will be added to that one id for when on that page-->
+            <a href="index.html">Home</a>
+          </li>
+          <li class="navButton" >
+            <a href="aboutMe.html">About</a>
+          </li>
+          <li class="navButton" >
+            <a href="work.html">Work</a>
+          </li>
+          <li class="navButton">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
       </head>
       <main>
         <div>
@@ -53,6 +53,7 @@
           <button>View More</button>
         </div>
       </main>
+
       <footer>
         <!--create a three part form for people to leave their information and then add a notice of how information will not be sold or shared. All information obtain will be kept confidental and only used for communicative purposes. -->
        <form>
@@ -84,6 +85,6 @@
 
        </form>
       </footer>
-        
+  
     </body>
 </html>
