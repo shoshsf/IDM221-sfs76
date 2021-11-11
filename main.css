@@ -3,26 +3,26 @@
 
 /*-Nav Bar Css---------------------------------------*/
 ul{
-    background-color: #07294D;
-    list-style-type: none;/*get rid of bulleted list*/
-    margin: 0;
-    padding: 0;
-    /*padding: 0 2rem;*/
-    top: 0; /*property to fix the nav at top of page*/
-    position: fixed; /*makes it so even when scrolling the nav will be presents*/
-    display: flex;
-    width: 100%;
-    justify-content: center;/*centers the the nav content to the center*/
-}
+      background-color: #100A36;
+      display: flex;
+      justify-content: center; /*centers the the nav content to the center*/
+      list-style-type: none; /*get rid of bulleted list*/
+      margin: 0;
+      padding: 0 2rem;
+      padding: 0;
+      position: fixed; /*property to fix the nav at top of page*/
+      top: 0; /*makes it so even when scrolling the nav will be presents*/
+      width: 100%;
+  }
 li{
-    padding: 1rem 3rem;/*content spacing*/
-    text-align: center; /*centers text*/
-}
+      padding: 1rem 3rem; /*content spacing*/
+      text-align: center;/*centers text*/  
+  }
 
 ul li a:active{
-    text-decoration: underline;
-    color: black;
-}
+      color: black;
+      text-decoration: underline;
+  }
 
 ul li a:hover{
  color: #EDB09F;
@@ -39,21 +39,21 @@ li a {
 
 /*-General Css---------------------------------------*/
 body{
-    color: #100A36;
-    background-color: #EEF8FF;
-    font-size: 1rem;
-    margin: 0;
-}
+      background-color: #EEF8FF;
+      color: #100A36;
+      font-size: 1rem;
+      margin: 0;
+  }
 main{
-    margin: 4rem 2rem 0; /* only applies the 64px to top to avoid collision of nav and main content*/
-}
+      margin: 4rem 2rem 0;/* only applies the 64px to top to avoid collision of nav and main content*/
+  }
 /*---------------------------------------------------*/
 
 
 /*-Footer Css----------------------------------------*/
 footer{
     background-color: #100A36;
-    color: #FFF0EB; 
+    color: #FFF0EB;
 
-
-
+}
+/*---------------------------------------------------*/
