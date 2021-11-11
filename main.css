@@ -1,35 +1,43 @@
-/*-----------------Nav Bar Css----------------------*/
+/*---------------------------------------------------*/
+
+
+/*-Nav Bar Css---------------------------------------*/
 ul{
     background-color: #07294D;
-    list-style-type: none;
+    list-style-type: none;/*get rid of bulleted list*/
     margin: 0;
     padding: 0;
     /*padding: 0 2rem;*/
-    top: 0;
-    position: fixed;
+    top: 0; /*property to fix the nav at top of page*/
+    position: fixed; /*makes it so even when scrolling the nav will be presents*/
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: center;/*centers the the nav content to the center*/
 }
 li{
-    padding: 1rem 2rem;
-    text-align: center;
+    padding: 1rem 3rem;/*content spacing*/
+    text-align: center; /*centers text*/
 }
 
-/*nav ul li a:active{
+ul li a:active{
     text-decoration: underline;
     color: black;
-}*/
- ul li a:hover{
+}
+
+ul li a:hover{
  color: #EDB09F;
  text-decoration: underline;
+ 
 }
 li a {
     color: #FFF0EB;
     text-decoration: none;
 }
+/* NEED TO CREATE THE CSS FOR: The currentPage Id will be applied to all the buttons depending on the page and then css will be added to that one id for when on that page*/
+/*---------------------------------------------------*/
 
-/*----------------------------------------------------*/
+
+/*-General Css---------------------------------------*/
 body{
     color: #100A36;
     background-color: #EEF8FF;
@@ -37,8 +45,15 @@ body{
     margin: 0;
 }
 main{
-    margin: 4rem 2rem 0;
+    margin: 4rem 2rem 0; /* only applies the 64px to top to avoid collision of nav and main content*/
 }
+/*---------------------------------------------------*/
+
+
+/*-Footer Css----------------------------------------*/
+footer{
+    background-color: #100A36;
+    color: #FFF0EB; 
 
 
 
