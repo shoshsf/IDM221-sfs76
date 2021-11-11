@@ -1,0 +1,16 @@
+/*-For BracketColorizer Extention-------------------------*/
+{
+    "key": "shift+alt+right",
+    "command": "bracket-pair-colorizer.expandBracketSelection",
+    "when": "editorTextFocus"
+},
+{
+    "key": "shift+alt+left",
+    "command": "bracket-pair-colorizer.undoBracketSelection",
+    "when": "editorTextFocus"
+}
+{
+    "recommendations": [
+        "polymermallard.css-alphabetize"
+    ]
+}
