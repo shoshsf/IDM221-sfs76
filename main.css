@@ -1,59 +1,63 @@
 /*---------------------------------------------------*/
-
-
+*{
+    box-sizing: border-box;
+  }
+html {
+    font-size: 16px;
+    height: 100%;
+  }
 /*-Nav Bar Css---------------------------------------*/
+
 ul{
-      background-color: #100A36;
-      display: flex;
-      justify-content: center; /*centers the the nav content to the center*/
-      list-style-type: none; /*get rid of bulleted list*/
-      margin: 0;
-      padding: 0 2rem;
-      padding: 0;
-      position: fixed; /*property to fix the nav at top of page*/
-      top: 0; /*makes it so even when scrolling the nav will be presents*/
-      width: 100%;
-  }
-li{
-      padding: 1rem 3rem; /*content spacing*/
-      text-align: center;/*centers text*/  
-  }
-
-ul li a:active{
-      color: black;
-      text-decoration: underline;
-  }
-
-ul li a:hover{
- color: #EDB09F;
- text-decoration: underline;
- 
+    background-color:  #100A36;
+    display: flex;
+    justify-content: center; /*centers the the nav content to the center*/
+    list-style-type: none; /*get rid of bulleted list*/
+    margin: 0;
+    padding: 1rem;
+    position: fixed;
+    top: 0;   /*property to fix the nav at top of page*/
+    width: 100vw;
 }
+li{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    text-align: center;
+   /*centers text*/
+}
+ nav ul li a:active{
+    color: black;
+    text-decoration: underline;
+
+  /*change color*/
+  }
+ul li a:hover{
+   color: #EDB09F;
+   text-decoration: underline;
+ }
 li a {
     color: #FFF0EB;
     text-decoration: none;
-}
+  }
 /* NEED TO CREATE THE CSS FOR: The currentPage Id will be applied to all the buttons depending on the page and then css will be added to that one id for when on that page*/
 /*---------------------------------------------------*/
-
-
 /*-General Css---------------------------------------*/
 body{
-      background-color: #EEF8FF;
-      color: #100A36;
-      font-size: 1rem;
-      margin: 0;
-  }
+        background-color: #EEF8FF;
+        color: #100A36;
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+      }
 main{
-      margin: 4rem 2rem 0;/* only applies the 64px to top to avoid collision of nav and main content*/
-  }
+   margin: 8.5rem 2rem 0;
+
+ /* applies spacing to top to avoid collision of nav and main content*/
+ }
 /*---------------------------------------------------*/
-
-
 /*-Footer Css----------------------------------------*/
 footer{
-    background-color: #100A36;
-    color: #FFF0EB;
-
-}
+      background-color: #100A36;
+      color: #FFF0EB;
+    }
 /*---------------------------------------------------*/
