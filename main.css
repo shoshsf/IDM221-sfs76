@@ -17,11 +17,11 @@ ul{
     padding: 1rem;
     position: fixed;
     top: 0;   /*property to fix the nav at top of page*/
-    width: 100vw;
+    width: 23.4rem;
 }
 li{
-    font-size: 2rem;
-    padding: 1rem 2rem;
+    font-size: 1rem;
+    padding: 1rem 0.5rem;
     text-align: center;
    /*centers text*/
 }
@@ -50,20 +50,23 @@ body{
         padding: 0;
       }
 main{
-   margin: 8.5rem 2rem 0;
+   margin: 6rem 2rem 0;
 
  /* applies spacing to top to avoid collision of nav and main content*/
+ }
+ span{
+   text-transform: uppercase;
+   font-style: bold;
  }
 /*---------------------------------------------------*/
 /*-Footer Css----------------------------------------*/
 footer{
       background-color: #100A36;
       color: #FFF0EB;
-      padding: 0.5rem 4rem 2rem;
+      padding: 0.5rem 1rem 2rem;
       text-align: center;
     }
 footer p{
 margin: 1rem 2rem;
 }
 /*---------------------------------------------------*/
-
