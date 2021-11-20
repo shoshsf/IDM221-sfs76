@@ -58,6 +58,28 @@ main{
    text-transform: uppercase;
    font-style: bold;
  }
+ .centerItem{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  
+}
+#aboutTop{
+  text-align: center;
+}
+
+#aboutTop div p {
+  margin: 0;
+  line-height: 1.5rem;;
+}
+#aboutTop div{
+  margin: 1rem 2rem;
+}
+
+/*---------------------------------------------------*/
+/*-profileImg Css------------------------------------*/
+
+
 /*---------------------------------------------------*/
 /*-Footer Css----------------------------------------*/
 footer{
