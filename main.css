@@ -5,6 +5,7 @@
 html {
     font-size: 16px;
     height: 100%;
+    font-family: 'Times New Roman', Times, serif;
   }
 /*-Nav Bar Css---------------------------------------*/
 
@@ -48,6 +49,8 @@ body{
         font-size: 1rem;
         margin: 0;
         padding: 0;
+        line-height: 1.5rem;
+       
       }
 main{
    margin: 6rem 2rem 0;
@@ -66,15 +69,15 @@ main{
 }
 #aboutTop{
   text-align: center;
+  padding: 1rem 0 2rem;  
 }
 
-#aboutTop div p {
-  margin: 0;
-  line-height: 1.5rem;;
+#AboutInfo{
+  margin: 0 2rem 1rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
 }
-#aboutTop div{
-  margin: 1rem 2rem;
-}
+
 
 /*---------------------------------------------------*/
 /*-profileImg Css------------------------------------*/
@@ -83,12 +86,39 @@ main{
 /*---------------------------------------------------*/
 /*-Footer Css----------------------------------------*/
 footer{
-      background-color: #100A36;
-      color: #FFF0EB;
-      padding: 0.5rem 1rem 2rem;
-      text-align: center;
-    }
-footer p{
-margin: 1rem 2rem;
+  background-color: #100A36;
+  color: #FFF0EB;
+  text-align: center;
+  font-size:1rem;
+  position: relative;
+  padding: 1rem 2rem 1rem;
+  
 }
 /*---------------------------------------------------*/
+table, th, td {
+  border: 0.1rem solid white;
+  padding: 1rem;
+  border-collapse: collapse;
+}
+#contactTable{
+  padding: 1rem 2.5rem 1rem;
+}
+/*---------------------------------------------------*/
+/*form-----------------------------------------------*/
+form{
+  padding: 1rem 3rem;
+}
+ 
+form div{
+  padding: 0.5rem 1rem;
+}
+form div #submitButton{
+ display: flex;
+ justify-content: center;
+}
+
+button{
+  padding: 0.3rem 2.5rem;
+}
+
+/*---------------------------------------------------*/ 
