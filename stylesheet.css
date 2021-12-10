@@ -1,0 +1,173 @@
+/*---------------------------------------------------*/
+*{
+      box-sizing: border-box;
+  }
+html {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 1rem;
+      height: 100%;
+  }
+@font-face {
+      font-display: swap;
+      font-family: 'Signika';
+      font-style: normal;
+      font-weight: normal;
+      src: url('Signika-Regular.ttf') format('truetype');
+  }
+/*-Nav Bar Css---------------------------------------*/
+ul{
+      background-color:  #100A36;
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      margin: 0;
+      padding: 1rem;
+      position: fixed;
+      top: 0;
+      width: 23.4rem;
+
+     /*centers the the nav content to the center*/
+     /*get rid of bulleted list*/
+       /*property to fix the nav at top of page*/
+  }
+li{
+      font-size: 1rem;
+      padding: 1rem 0.5rem;
+      text-align: center;
+
+   /*centers text*/
+  }
+ nav ul li a:active{
+      color: black;
+      text-decoration: underline;
+
+  /*change color*/
+  }
+ul li a:hover{
+     color: #EDB09F;
+     text-decoration: underline;
+ }
+li a {
+      color: #FFF0EB;
+      text-decoration: none;
+  }
+/* NEED TO CREATE THE CSS FOR: The currentPage Id will be applied to all the buttons depending on the page and then css will be added to that one id for when on that page*/
+/*---------------------------------------------------*/
+/*-General Css---------------------------------------*/
+body{
+  background-color: #EEF8FF;
+  color: #100A36;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+      }
+main{
+     margin: 6rem 2rem 0;
+     padding-bottom: 1rem;
+
+ /* applies spacing to top to avoid collision of nav and main content*/
+ }
+ span{
+     font-style: bold;
+     text-transform: uppercase;
+ }
+ .centerItem{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+#aboutTop{
+    padding: 1rem 0 2rem;
+    text-align: center;
+}
+#AboutInfo{
+    font-family: 'Signika', 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    margin: 0 2rem 1rem;
+}
+/*---------------------------------------------------*/
+/*-profileImg Css------------------------------------*/
+/*---------------------------------------------------*/
+/*-Footer Css----------------------------------------*/
+footer{
+    background-color: #100A36;
+    color: #FFF0EB;
+    font-size:1rem;
+    padding: 1rem 2rem 1rem;
+    position: relative;
+    text-align: center;
+}
+/*---------------------------------------------------*/
+table, th, td {
+    border-collapse: collapse;
+    background-color: #EEF8FF;
+    color: #100A36;
+    border: 0.1rem solid #100A36;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+#contactTable{
+    padding: 1rem 2rem;
+}
+/*------------5rem 1rem;---------------------------------------*/
+/*Contact Page-----------------------------------------------*/
+form{
+    padding: 1.5rem 3rem;
+} 
+form div{
+    padding: 0.5rem 1rem;
+}
+form div #submitButton{
+   display: flex;
+   justify-content: center;
+}
+button{
+    padding: 0.3rem 2.5rem;
+}
+#disclaimer{
+    font-size: 0.9rem;
+    padding-top: 1.3rem;
+}
+/*---------------------------------------------------*/ 
+/*---------------------------------------------------*/
+main #projectSection{
+    align-content: center;
+    padding: 1rem 0 1rem ;
+}
+div .projectHolder{
+       background-color: white;
+       color: #100A36;
+       display: flex;
+       padding: 1rem 2.5rem;
+       text-decoration: none;
+  }
+
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  
+  }
+ .subtitle{
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: italic;
+     }
+#individualProject{
+  display: inline-block;
+  align-items: center;
+}
+/*Addes color scheme to previous boring buttons-----*/
+button{
+  color: white;
+  background-color: #100A36;
+  border-radius: 0.5rem;
+}
+
+/*---------------------------------------------------*/
